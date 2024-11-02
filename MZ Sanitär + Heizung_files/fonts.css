@@ -1,0 +1,79 @@
+/* Fonts for MZ Sanitaer AG © admotion */
+
+
+
+@font-face {
+    font-family: 'Klavika';
+    src: url("../fonts/KlavikaWebBasicLight/KlavikaWebBasicLight.eot"), 
+    url("../fonts/KlavikaWebBasicLight/KlavikaWebBasicLight.woff"), 
+    url("../fonts/KlavikaWebBasicLight/KlavikaWebBasicLight.woff2");
+	font-weight: 300; font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Klavika';
+    src: url("../fonts/KlavikaWebBasicLightItalic/KlavikaWebBasicLightItalic.eot"), 
+    url("../fonts/KlavikaWebBasicLightItalic/KlavikaWebBasicLightItalic.woff"), 
+    url("../fonts/KlavikaWebBasicLightItalic/KlavikaWebBasicLightItalic.woff2");
+	font-weight: 300; font-style: italic; 
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Klavika';
+    src: url("../fonts/KlavikaWebBasicRegular/KlavikaWebBasicRegular.eot"), 
+    url("../fonts/KlavikaWebBasicRegular/KlavikaWebBasicRegular.woff"), 
+    url("../fonts/KlavikaWebBasicRegular/KlavikaWebBasicRegular.woff2");
+	font-weight: normal; font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Klavika';
+    src: url("../fonts/KlavikaWebBasicRegularItalic/KlavikaWebBasicRegularItalic.eot"), 
+    url("../fonts/KlavikaWebBasicRegularItalic/KlavikaWebBasicRegularItalic.woff"), 
+    url("../fonts/KlavikaWebBasicRegularItalic/KlavikaWebBasicRegularItalic.woff2");
+	font-weight: normal; font-style: italic; 
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Klavika';
+    src: url("../fonts/KlavikaWebBasicMedium/KlavikaWebBasicMedium.eot"), 
+    url("../fonts/KlavikaWebBasicMedium/KlavikaWebBasicMedium.woff"), 
+    url("../fonts/KlavikaWebBasicMedium/KlavikaWebBasicMedium.woff2");
+	font-weight: 600; font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Klavika';
+    src: url("../fonts/KlavikaWebBasicMediumItalic/KlavikaWebBasicMediumItalic.eot"), 
+    url("../fonts/KlavikaWebBasicMediumItalic/KlavikaWebBasicMediumItalic.woff"), 
+    url("../fonts/KlavikaWebBasicMediumItalic/KlavikaWebBasicMediumItalic.woff2");
+	font-weight: 600; font-style: italic; 
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Klavika';
+    src: url("../fonts/KlavikaWebBasicBold/KlavikaWebBasicBold.eot"),
+    url("../fonts/KlavikaWebBasicBold/KlavikaWebBasicBold.woff"),
+    url("../fonts/KlavikaWebBasicBold/KlavikaWebBasicBold.woff2");
+	font-weight: bold; font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Klavika';
+    src: url("../fonts/KlavikaWebBasicBoldItalic/KlavikaWebBasicBoldItalic.eot"),
+    url("../fonts/KlavikaWebBasicBoldItalic/KlavikaWebBasicBoldItalic.woff"),
+    url("../fonts/KlavikaWebBasicBoldItalic/KlavikaWebBasicBoldItalic.woff2");
+	font-weight: bold; font-style: italic; 
+}

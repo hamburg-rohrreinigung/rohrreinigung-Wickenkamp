@@ -1,0 +1,71 @@
+/* Menu for MZ Sanitär + Heizung AG © admotion*/
+
+
+.nav { margin-bottom: 0px; }
+
+#menu ul { margin: 0px; padding: 0px; }
+#menu li { margin: 0px; padding: 0px; letter-spacing: 0.01em; font-weight: normal; border-left: 2px solid #ffffff; font-size: 16px; }
+#menu li a { color: #000000; padding: 80px 30px 50px 15px; }
+
+#menu li:hover { background: #0092c6; }
+#menu li:hover a { color: #ffffff; }
+
+#menu li.active { background: #0092c6; }
+#menu li.active a { color: #ffffff; }
+
+
+#menu ul ul { width: auto; border: 0px; padding: 3px 0px 0px 0px; }
+#menu li li { background: #0092c6; border: 0px; width: auto; }
+#menu li li a { float: none !important; padding: 5px 15px; border: 0px; height: auto; color: #ffffff; }
+
+#menu li li:hover { background: #ef662f; }
+#menu li li.active { background: #ef662f; }
+
+
+
+div#maximenuck139 ul.maximenuck li.level1.parent > a::after, div#maximenuck139 ul.maximenuck li.level1.parent > span.separator::after { display: none; }
+
+
+
+#submenu li { float: left; }
+#submenu li a { color: #ffffff; padding: 0px 12px; background: url(../images/line.jpg) no-repeat 0 4px; }
+#submenu li:first-child a { background: none; padding: 0px 12px 0px 0px; }
+#submenu li:last-child a { padding: 0px 0px 0px 12px; }
+
+
+.mobilemenuck-bar { top: 20px; }
+[data-id="maximenuck139"] .mobilemenuck-bar-button { background: #0092c6; }
+[data-id="maximenuck139"].mobilemenuck { padding-bottom: 0px; }
+[data-id="maximenuck139"] .mobilemenuck-item > .level1 { background: #0092c6; border-radius: 0px; margin: 0px; border-bottom: 1px solid #ffffff; padding: 6px 15px; }
+[data-id="maximenuck139"] .mobilemenuck-item > .active.level1 { background: #ef662f; }
+[data-id="maximenuck139"].mobilemenuck a { font-size: 16px; font-weight: normal; }
+[data-id="maximenuck139"] .mobilemenuck-item > .level1:not(.headingck):hover, [data-id="maximenuck139"] .mobilemenuck-item > .level1.open { background: #ef662f; }
+
+[data-id="maximenuck139"] .mobilemenuck-togglericon::after { background: url(../images/plus.png) no-repeat scroll center center; background-size: 12px 12px; content: ""; }
+.mobilemenuck .open .mobilemenuck-togglericon::after { background: url(../images/minus.png) no-repeat scroll center center; background-size: 12px 12px; content: ""; }
+
+
+[data-id="maximenuck139"] .mobilemenuck-item > .level2 { border-radius: 0px; margin: 0px; padding: 10px 15px; background: #dddddd; border-bottom: 1px solid #ffffff; }
+[data-id="maximenuck139"] .mobilemenuck-item > .level2 a { color: #000000; line-height: 170%; }
+
+[data-id="maximenuck139"] .mobilemenuck-item > .level2:not(.headingck):hover, [data-id="maximenuck139"] .mobilemenuck-item > .level2.open { background: #ef662f; }
+[data-id="maximenuck139"] .mobilemenuck-item > .level2:hover a { color: #ffffff; }
+[data-id="maximenuck139"] .mobilemenuck-item > .level2.active { background: #ef662f; }
+[data-id="maximenuck139"] .mobilemenuck-item > .level2.active a { color: #ffffff; }
+
+
+
+
+@media(max-width:1150px)
+{
+}
+
+
+
+@media(max-width:850px)
+{
+	#submenu li { float: none; }
+	#submenu li a { background: none; padding: 0px; }
+	#submenu li:first-child a { padding 0px; }
+	#submenu li:last-child a { padding: 0px; }
+}

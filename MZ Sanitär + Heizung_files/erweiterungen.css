@@ -1,0 +1,211 @@
+/* Erweiterungen for MZ Sanitär + Heizung AG © admotion */
+
+
+
+.uk-inline-clip img { height: 150px; object-fit: cover; }
+
+.cookies h3 { padding: 10px 0px 0px 0px; }
+
+#cookiesck { padding: 20px; -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3); box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3); z-index: 9999; bottom: 40px; background: #ffffff; right: auto; width: 400px; left: 40px; bottom: 40px; }
+#cookiesck_text { padding: 0px 0px 20px 0px; }
+#cookiesck_accept { font-weight: 500; }
+#cookiesck_decline { font-weight: 500; }
+#cookiesck_settings { font-weight: 500; }
+#cookiesck > .inner { text-align: left; }
+
+.cookiesck-main .cookiesck-decline:hover, .cookiesck-main .cookiesck-decline.cookiesck-active { border: 2px solid #0092c6; color: #000000; }
+.cookiesck-main .cookiesck_button, .cookiesck-main-buttons .cookiesck-button { border-radius: 0px; font-weight: 500; }
+#cookiesck_interface { margin: 0px; -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3); box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3); border: 0px; right: auto; top: auto; width: 800px; left: 40px; bottom: 40px; }
+
+.cookiesck-platform .cookiesck-accept { border: 2px solid #0092c6; background: none; color: #000000; }
+.cookiesck-platform .cookiesck-main .cookiesck-decline .cookiesck-active { background: #e5e5e5; border: 2px solid #ddd; color: #666666; }
+
+.cookiesck-main .cookiesck-decline.cookiesck-active { background: #e5e5e5; border: 2px solid #ddd; color: #666666; }
+.cookiesck-main .cookiesck-accept { border: 2px solid #0092c6; background: none; color: #000000; }
+
+.cookiesck-main-desc { font-size: 16px; padding: 0px 20px 20px 20px; }
+.cookiesck-main-title { text-align: left; font-size: 22px; line-height: 120%; font-weight: 700; letter-spacing: 0em; }
+.cookiesck-main-buttons { justify-content: left; padding: 0px 0px 10px 20px;  }
+
+.cookiesck-category-name { font-size: 16px; line-height: 140%; font-weight: 600; letter-spacing: 0em; }
+
+.cookiesck-main-close { padding: 4px 12px 6px 12px; background: #ef662f; color: #ffffff; }
+.cookiesck-category-desc { display: none; }
+.cookiesck-main .cookiesck-decline:hover { border: 2px solid #000000; }
+#cookiesck_text { font-size: 16px; line-height: 160%; }
+#cookiesck_options { width: 30px; height: 30px; border-radius: 50%; margin: 15px; }
+#cookiesck_settings { border: 0px; padding: 10px 0px 0px 0px; }
+#cookiesck_settings:hover { padding: 10px 0px 0px 0px; }
+.cookiesck-platform-name { font-size: 16px; }
+
+
+
+
+/* Search */
+
+input, button, select, textarea { font-family: Klavika; font-weight: normal; font-size: 16px; }
+input.search-query { border-radius: 0px; padding: 5px 8px 3px 8px; }
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { box-shadow: none; }
+
+.only { display: none; }
+.form-limit { display: none; }
+.phrases-box { display: none; }
+.ordering-box { display: none; }
+.result-title { margin: 20px 0px 0px 0px; }
+.phrases { display: none; }
+
+
+
+
+
+.uk-list li a:hover { text-decoration: none; }
+.uk-list .techno li { margin: 0px !important; }
+.uk-margin .techno li { background: none !important; padding: 0px !important; }
+.techno .uk-list li a { padding: 0px !important; }
+.techno .uk-margin { padding: 0px !important; }
+
+
+/* Team */
+
+.team-sett { background: #f0f0f0; padding: 20px 10px 10px 10px; min-height: 320px; }
+.team-sett:hover { background: #ef662f; box-shadow: none; }
+.team-sett:hover .fa.fa-envelope { color: #333 !important; }
+
+
+
+
+.img-member { margin: -100px 0px 10px 0px; }
+.team-member ul li { background: none !important; padding: 0px !important; margin: 0px 2px 0px 2px !important; }
+.icon-envelope::before { padding: 0px 0px 0px 0px; }
+
+.team-member:hover ul li a:hover { background: none; }
+.team-member:hover ul li a:hover i { color: #414042; }
+.team-member ul li a { background: none; border-radius: 0px; padding: 0px !important; width: auto; height: auto; color: #414042; }
+.team-member:hover ul li a { color: #414042; background: none; }
+[class^="icon-"], [class*=" icon-"] { background: none; }
+
+.prev-next:hover { background: #f0f0f0; border: 0px solid #989898; color: #414042; }
+.prev-next { display: none; color: #ffffff; padding-top: 2px !important; background: #9dcc36; border: 0px; }
+.icon-chevron-right { background-image: none !important; }
+.icon-chevron-left { background-image: none !important; }
+
+.team-member h3 { text-transform: none; font-size: 20px; font-weight: 600; }
+.team-member h5 { text-transform: none; color: #000000; font-size: 16px; font-weight: normal; margin: 0px; line-height: 160%; }
+.team-member p { font-size: 16px;  min-height: 110px; }
+
+
+
+/* Widgetkit */
+
+.uk-grid { margin-top: 25px; }
+.uk-grid ul { margin: 0px 0px 10px 0px !important; }
+.uk-grid li { background: none !important; padding: 0px !important; }
+.uk-margin li { margin: 0px !important; padding: 0px 0px 0px 20px !important; background: url(../images/list.png) no-repeat 0 7px !important; background-size: 12px 10px !important; list-style: none !important; line-height: 160% !important; }
+
+
+
+
+.uk-margin { background: #f0f0f0; padding: 20px; }
+
+
+.uk-list li { margin: 0px 0px 12px 0px !important; }
+.uk-list li a { background: #f0f0f0; display: block; color: #0092c6; font-weight: 600; font-size: 20px; line-height: 140%; padding: 5px 10px 5px 10px; }
+
+.uk-list li:hover a { color: #ffffff; background: #0092c6; }
+.uk-list li.active a { color: #ffffff; background: #0092c6; }
+
+li.uk-active a { color: #ffffff; background: #0092c6; }
+
+.uk-margin a { color: #ef662f !important; background: none !important; }
+
+.uk-grid + .uk-grid, .uk-grid-margin, .uk-grid > * > .uk-panel + .uk-panel { margin-top: 0px; }
+
+
+
+
+/* Googlemap */
+
+.responsiveContainer { position: relative; padding-bottom: 45%; height: 0; overflow: hidden; }
+.responsiveContainer iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+.responsive-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.responsive-video { position: relative; padding-bottom: 56.25%; padding-top: 0px; height: 0; overflow: hidden; }
+
+
+
+
+/* Sigplus */
+
+.sigplus-gallery { margin: 20px 0px 0px 0px; }
+div.sigplus-gallery ul>li>img,div.sigplus-gallery ul > li > a > img { margin: 0px 10px 10px 0px !important; width: 95%; }
+div.sigplus-gallery > ul > li { width: 20%; }
+.sigplus-gallery li { background: none !important; margin: 0px !important; padding: 0px !important; }
+.captionplus { margin: 0px 10px 10px 0px !important;width: 95%;}
+
+
+/* Breezingforms */
+
+.bfQuickMode input[type="text"], .bfQuickMode textarea, .bfQuickMode select, .bfQuickMode .uneditable-input { max-width: 95%; }
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { border-radius: 0px; font-size: 16px; }
+.form-actions { background: none; padding: 0px; margin: 0px; border: 0px; }
+.btn-primary { background: #0092c6; border: 0px; text-transform: uppercase; letter-spacing: 0.08em; }
+.btn-primary:hover { background: #0092c6; }
+.bfQuickMode .pull-right { float: left; }
+.btn { border-radius: 0px; font-size: 16px; padding: 7px 20px; line-height: 140%; }
+.bfQuickMode .bfElemWrap .form-inline input[type="text"], .bfQuickMode .bfElemWrap .form-inline input[type="number"], .bfQuickMode .bfElemWrap .form-inline textarea, .bfQuickMode .bfElemWrap .form-inline select { max-width: 100%; }
+
+
+
+
+
+
+
+@media(max-width:1000px)
+{
+    .uk-list li a { font-weight: 400; font-size: 15px; }
+
+    .team-member p { min-height: 130px; }
+}
+
+
+
+@media(max-width:767px)
+{
+	.uk-margin { background: #f0f0f0; padding: 15px 15px 5px 15px; }
+
+	.uk-list li { margin: 0px 0px 5px 0px !important; }
+	.uk-list li a { font-size: 15px; }
+
+	div.sigplus-gallery > ul > li { width: 33.333%; }
+
+    .team-sett { min-height: 0px; }
+    .team-member p { min-height: 0px; }
+
+}
+
+
+
+@media(max-width:680px)
+{
+	div.sigplus-gallery > ul > li { width: 50%; }
+}
+
+
+
+@media(max-width:500px)
+{
+	#team-sett { min-height: 0px; }
+	#team103 .team-sett103 { min-height: 0px; }
+	#team113 .team-sett113 { min-height: 0px; }
+	#team117 .team-sett117 { min-height: 0px; }
+
+}
+
+
+
+@media(max-width:400px)
+{
+	div.sigplus-gallery ul>li>img,div.sigplus-gallery ul > li > a > img { margin: 0px 0px 10px 0px !important; width: 100%; }
+	div.sigplus-gallery > ul > li { width: 100%; }
+}

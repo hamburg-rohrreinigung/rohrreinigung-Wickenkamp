@@ -1,0 +1,265 @@
+/* Template for MZ Sanitär + Heizung AG © admotion*/
+
+html 
+{
+   height:			100%;
+}
+
+
+body
+{
+   height:			100%;
+   margin:			0px;
+   padding:			0px;
+   font-family:		'Klavika';
+   font-weight:		normal;
+   font-size:		16px;
+   color:			#414042;
+   line-height:		160%;
+   letter-spacing:	0.02em;
+   background: 		#ffffff; 
+}
+
+
+
+
+
+#system-message { margin: 0px; }
+img { height: auto; max-width: 100%; vertical-align: middle; border: 0px; }
+
+
+#einleitung { display: none; }
+#kundenzitate { display: none; }
+
+.random-image {width:100%;}
+.random-image img {width:100%;}
+
+
+#container-header { background: url(../images/transparent.png) repeat; position: absolute; width: 100%; z-index: 997; }
+#header { margin: 0px auto; padding: 0px; width: 1170px; height: 150px; }
+#logo { float: left; width: 185px; padding: 15px 0px 0px 0px; }
+#menu { float: right; }
+
+
+#redim-cookiehint .cookiecontent { font-size: 14px; line-height: 170%; }
+#redim-cookiehint-modal { padding: 0px; background: none; top: auto; right: auto; left: 50px; bottom: 50px; }
+#redim-cookiehint { background-color: #0092c6 !important; width: 400px; font-size: 14px; line-height: 170%; }
+#redim-cookiehint .cookiebuttons .btn { line-height: 100%; padding: 5px 10px !important; }
+#cookiehintinfo { margin: 15px 0 0 0; }
+
+/* Seitenleiste */
+
+#seitenleiste { position: fixed; right: 0; width: 40px; top: 170px; z-index: 5; color: #ffffff; font-size: 28px; text-align: center; }
+#seitenleiste-mobile { display: none; }
+
+#container-search { position: relative; }
+#search { cursor: pointer; width: 40px; height: 40px; background: #ef662f url(../images/search.png) no-repeat center center; background-size: 25px 25px; margin: 0px 0px 10px 0px; }
+#search-inhalt { display: none; background: #ef662f; height: 35px; position: absolute; right: 43px; top: 0px; padding: 5px 5px 0px 5px; }
+#searchForm { margin: 0px auto; width: 1170px; }
+.search-results { margin: 0px auto; width: 1170px; }
+
+
+#mail { cursor: pointer; width: 40px; height: 40px; background: #ef662f url(../images/letter.png) no-repeat center center; background-size: 25px 18px; margin: 0px 0px 10px 0px; }
+
+#container-phone { position: relative; }
+#phone { cursor: pointer; width: 40px; height: 40px; background: #ef662f url(../images/phone.png) no-repeat center center; background-size: 25px 25px; margin: 0px 0px 10px 0px; }
+#phone-inhalt { display: none; background: #ef662f; width: 150px; height: 33px; position: absolute; right: 43px; top: 0px; padding: 7px 5px 0px 10px; font-size: 16px; text-align: left; }
+#phone-inhalt a { color: #ffffff !important; }
+
+
+.row-2 .item-content { width: auto; float: none; }
+
+.film { float: left; width: 360px; margin: 7px 28px 0px 0px; border: 1px solid #bcbec0; }
+.einleitung { float: left; width: 780px;  }
+
+
+video {width: 100%; height: auto; max-width: 100%;}
+
+
+#container-pikett { position: relative; }
+#pikett { cursor: pointer; width: 40px; height: 130px; background: #0092c6 url(../images/pikett.png) no-repeat center center; background-size: 30px 115px; }
+#pikett-inhalt { display: none; background: #0092c6; width: 150px; height: 110px; position: absolute; right: 43px; top: 0px; padding: 20px 5px 0px 10px; font-size: 16px; text-align: left; }
+#pikett-inhalt a { color: #ffffff !important; }
+
+
+#inhalt { padding: 40px 0px 0px 0px; }
+
+#inhalt ul { margin: 0px 0px 10px 0px; padding: 0px; }
+#inhalt li { margin: 0px; padding: 0px 0px 0px 20px; background: url(../images/list.png) no-repeat 0 7px; background-size: 12px 10px; list-style: none; line-height: 160%; }
+
+.item-page { margin: 0px auto; width: 1170px; padding: 0px 0px 40px 0px; }
+
+
+.kontakt-left { float: left; width: 48%; }
+.kontakt-right { float: right; width: 48%; padding: 5px 0px 0px 0px; }
+
+
+ol { margin: 0px 0px 0px 16px; }
+ol li { background: none !important; list-style: inherit !important; padding: 0px !important; }
+
+
+
+/* Blog */
+
+.item-image { float: left; width: 360px; margin: 10px 30px 0px 0px; }
+.item-content { float: left; width: 780px; position: relative; }
+
+
+.blog-item { padding: 40px 0px 60px 0px; }
+.blog-inhalt { margin: 0px auto; width: 1170px; }
+
+.blog-item:nth-child(odd) { background: #ffffff; }
+.blog-item:nth-child(even) { background: #f0f0f0; }
+
+.article-info-term { display: none; }
+.create { margin: 0px; text-transform: uppercase; color: #a7a9ac; font-size: 14px; }
+dl { margin-bottom: 10px; }
+
+
+#container-footer { background: #303030; }
+#footer { margin: 0px auto; width: 1170px; padding: 15px 0px 13px 0px; }
+#adresse { color: #ffffff; float: left; }
+#adresse a { color: #ffffff; }
+#submenu { float: right; }
+
+#adresse ul { margin: 0px; padding: 0px; }
+#adresse li { list-style: none; float: left; margin: 0px; padding: 0px 12px; background: url(../images/line.jpg) no-repeat 0 4px; }
+#adresse li:first-child { background: none; padding: 0px 12px 0px 0px; }
+
+
+.back-to-top { font-size: 0; background: url(../images/totop.png) no-repeat scroll 0 0; background-size: 35px 35px; width: 35px; height: 35px; bottom: 15px; right: 15px; position: fixed; }
+
+
+
+
+/* Text */
+
+h1 { margin: 0px 0px 20px 0px; padding: 0px; font-size: 40px; line-height: 130%; color: #0092c6; font-weight: bold; letter-spacing: 0.01em; }
+h2 { margin: 0px 0px 5px 0px; padding: 10px 0px 0px 0px; font-size: 22px; line-height: 120%; color: #ef662f; font-weight: bold; letter-spacing: 0.01em; }
+h3 { margin: 0px 0px 5px 0px; padding: 10px 0px 0px 0px; font-size: 16px; line-height: 130%; color: #000000; font-weight: bold; letter-spacing: 0; }
+h4 { margin: 0px 0px 5px 0px; padding: 10px 0px 0px 0px; font-size: 17px; line-height: 130%; color: #000000; font-weight: bold; letter-spacing: 0; }
+
+
+.uk-scope .uk-h2, .uk-scope h2 { font-family: 'Klavika'; font-weight: bold; font-size: 22px; line-height: 120%; }
+.uk-scope .uk-h3, .uk-scope h3 { font-family: 'Klavika'; font-weight: bold;  }
+
+
+a { text-decoration: none; outline: none; color: #2c5dad; }
+a:hover { text-decoration: none; color: #2c5dad; }
+a:focus { text-decoration: none; outline: none; color: #2c5dad; }
+
+
+.clear { line-height: 0; }
+
+
+table { margin: 0px 0px 10px 0px; }
+hr { border: 0px; border-bottom: 1px solid #000000; margin: 0px 0px 40px 0px; padding: 0px 0px 45px 0px; opacity: 1; }
+p { margin: 0px 0px 10px 0px; }
+
+
+.grecaptcha-badge {bottom: 70px !important;}
+
+@media(max-width:1350px)
+{
+	#header { width: 1000px; }
+	.item-page { width: 1000px; }
+	.blog-inhalt { width: 1000px; }
+
+    .film { width: 33.333%; margin: 7px 0px 0px 0px; }
+    .einleitung { float: right; width: 64%; }
+
+	.item-image { width: 300px; }
+	.item-content { width: 670px; }
+
+	#searchForm { width: 1000px; }
+	.search-results { width: 1000px; }
+
+	#footer { width: 1000px; }
+	#adresse { float: none; }
+	#submenu { float: none; margin: 0px 0px 20px 0px; }
+}
+
+
+
+
+@media(max-width:1150px)
+{
+	#container-header { position: static; }
+	#header { width: auto; margin: 0px 20px; }
+
+	#seitenleiste { display: none; }
+	#seitenleiste-mobile { display: block; position: absolute; right: 71px; top: 27px; width: auto; z-index: 998; color: #ffffff; }
+
+
+	#container-search-mobile { float: left; position: relative; }
+	#search-mobile { float: left; width: 30px; height: 30px; margin: 0px 10px 0px 0px; background: #ef662f url(../images/search.png) no-repeat center center; background-size: 20px 20px; }
+	#search-mobile-inhalt { display: none; background: #ef662f; height: 35px; position: absolute; z-index: 999; left: 0px; top: 33px; padding: 5px 5px 0px 5px; }
+
+	#container-mail-mobile { float: left; position: relative; }
+	#mail-mobile { float: left; width: 30px; height: 30px; margin: 0px 10px 0px 0px; background: #ef662f url(../images/letter.png) no-repeat center center; background-size: 20px 14px; }
+
+	#container-phone-mobile { float: left; position: relative; }
+	#phone-mobile { float: left; width: 30px; height: 30px; margin: 0px 10px 0px 0px; background: #ef662f url(../images/phone.png) no-repeat center center; background-size: 20px 20px; }
+
+	#container-pikett-mobile { float: left; position: relative; }
+	#pikett-mobile { float: left; width: 115px; height: 30px; background: #0092c6 url(../images/pikett-mobile.png) no-repeat center center; background-size: 100px 26px; }
+	#pikett-mobile-inhalt { display: none; background: #0092c6; width: 150px; position: absolute; z-index: 999; right: auto; left: 0px; top: 33px; padding: 10px 5px 10px 10px; font-size: 16px; text-align: left; }
+    #pikett-mobile-inhalt a { color: #ffffff; }
+   
+    
+	.item-page { width: auto; margin: 0px 20px; }
+	.blog-inhalt { width: auto; margin: 0px 20px; }
+	.item-image { width: 35%; margin: 4px 3% 0px 0px; }
+	.item-content { width: 62%; }
+
+
+	#searchForm { width: auto; margin: 0px 20px; }
+	.search-results { width: auto; margin: 0px 20px; }
+
+	#footer { width: auto; margin: 0px 20px; }
+}
+
+
+
+
+@media(max-width:850px)
+{
+	h1 { font-size: 30px; }
+
+    
+    .film { width: auto; float: none; margin: 7px 0px 20px 0px; }
+    .einleitung { width: auto; float: none; }
+
+	#footer li { float: none; background: none; padding: 0px; line-height: 160%; }
+}
+
+
+
+
+@media(max-width:600px)
+{
+	body { font-size: 14px; }
+
+	#seitenleiste-mobile { position: static; width: auto; margin: 10px 20px; }
+
+	#header { margin: 0px; border-bottom: 1px solid #bcbec0; }
+	#logo { margin: 0px 0px 0px 20px; }
+	#titelbild { display: none; }
+
+	.item-image { float: none; width: auto; margin: 4px 0px 10px 0px; }
+	.item-content { float: none; width: auto; }
+	
+	#inhalt { border-top: 1px solid #bcbec0; }
+
+	h1 { font-size: 25px; }
+
+	.kontakt-left { float: none; width: 100%; }
+	.kontakt-right { float: none; width: 100%; margin: 0px 0px 20px 0px; }
+}
+
+
+@media(max-width:500px)
+{
+    #redim-cookiehint-modal { right: 20px; bottom: 20px; left: 20px; }
+    #redim-cookiehint { width: auto; }
+}
